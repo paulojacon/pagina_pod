@@ -1,21 +1,42 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    font-family: 'Chivo';
 }
-
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo{
+    position:absolute;
+    width: 134.85px;
+    height: 56px;
+    padding-left: 165px;
+    padding-top: 72px;
+    
+}
 body{
-    position:relative;
-    width: 1266px;
+    position: relative;
+    width: 1300x;
     height: 766px;
-    padding-top: -512px;
-    padding-left: -712px;
     background: #121725;
 }
-img{
-    position:absolute;
-    width: 1275px;
-    height: 640px;
-    padding-left: 170px;
-    padding-top: 130px;
+.img_principal{
+    width:888px;
+    height: 500px;
+    padding-left: 450px;
+    padding-top: 120px;
+}
+.texto_principal{
+    background: #121725 ;
+    color: #C2CBE5;
+    font-family: 'Chivo';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 28px;
+    width: 445px;
+    height: 82.16px;
 }
